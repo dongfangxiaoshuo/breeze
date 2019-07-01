@@ -1,0 +1,78 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/active/main",
+    "pages/order/main",
+    "pages/me/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "汽车三方",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+
+    "list": [
+      {
+      "text": "首页",
+      "pagePath": "pages/index/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "活动",
+        "pagePath": "pages/active/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "订单",
+        "pagePath": "pages/order/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+      }
+
+
+    ],
+
+    "items": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/main",
+        "iconPath": "static/tabs/home.png",
+        "selectedIconPath": "static/tabs/home-active.png"
+        },
+        {
+          "text": "活动",
+          "pagePath": "pages/active/main",
+          "iconPath": "static/tabs/home.png",
+          "selectedIconPath": "static/tabs/home-active.png"
+        },
+        {
+          "text": "订单",
+          "pagePath": "pages/order/main",
+          "iconPath": "static/tabs/home.png",
+          "selectedIconPath": "static/tabs/home-active.png"
+        },
+        {
+          "text": "我的",
+          "pagePath": "pages/me/main",
+          "iconPath": "static/tabs/home.png",
+          "selectedIconPath": "static/tabs/home-active.png"
+        }
+   ],
+    "position": "bottom"
+  }
+}
